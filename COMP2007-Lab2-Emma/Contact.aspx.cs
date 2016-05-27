@@ -13,5 +13,11 @@ namespace COMP2007_Lab2_Emma
         {
 
         }
+
+        protected void SubmitButton_Click(object sender, EventArgs e)
+        {
+            //Typically replaced with code to process emails
+            Response.Redirect("Default.aspx");
+        }
     }
 }
